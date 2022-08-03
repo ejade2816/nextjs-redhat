@@ -14,6 +14,7 @@ export default function Home() {
         <h1 className={styles.title}>
           main10
         </h1>
+        <h1>{process.env.NEXT_PUBLIC_ID}</h1>
       </main>
     </div>
   )
